@@ -24,7 +24,7 @@ jobs:
       - name: Print branch details
         run: |
           # full reference of the branch or tag that triggered the workflow
-          echo "Current branch {GITHUB_REF}"
+          echo "Current branch ${GITHUB_REF}"
           # short name of the branch or tag
           echo "Github_ref_name: ${GITHUB_REF_NAME}"
           # Person who triggered the run
